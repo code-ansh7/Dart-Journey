@@ -1,68 +1,92 @@
-# 📌 Variables & Data Types - Quick Notes
+# 📒 Variables & Data Types - Module Notes
 
 ## Day 1
 
-- Dart is developed by Google.
-- Flutter uses Dart.
-- Every program starts with `main()`.
-- `print()` displays output.
-- `void` means no return value.
-- `;` ends a statement.
+### Basics
+
+- Dart Introduction
+- main()
+- print()
+- void
+- Line Termination
 
 ---
 
 ## Day 2
 
-### Variable
+### Variables
 
-A variable stores data in memory.
-
-Syntax
-
-```dart
-DataType variableName = value;
-```
-
----
+Store data inside memory.
 
 ### Data Types
 
-- String → Text
-- int → Whole Numbers
-- double → Decimal Numbers
-- bool → true / false
-
----
+- String
+- int
+- double
+- bool
 
 ### Printing Variables
 
 ```dart
-print(variableName);
+print(name);
 ```
-
----
 
 ### Type Conversion
 
 ```dart
-value.toString()
+age.toString();
 ```
 
-Used while concatenating strings with non-string values.
+---
+
+## Day 3
+
+### String Interpolation
+
+```dart
+print("Age : $age");
+```
+
+### Expression
+
+```dart
+print("${age + 1}");
+```
+
+### var
+
+Compiler automatically identifies the type.
+
+```dart
+var name = "Ansh";
+```
+
+### Type Inference
+
+```
+var age = 19
+
+↓
+
+Compiler
+
+↓
+
+int age = 19
+```
+
+### Type Safety
+
+Once inferred
+
+↓
+
+Cannot change data type.
 
 ---
 
-### Naming Rules
+## Module Conclusion
 
-- Use meaningful names.
-- Use camelCase.
-- No spaces.
-- Cannot start with a number.
+This module teaches how data is stored, displayed and inferred in Dart.
 
----
-
-## Next Topic
-
-- String Interpolation
-- var Keyword
-- Type Inference
+Without these concepts Flutter development is impossible.
