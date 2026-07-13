@@ -1,18 +1,39 @@
-# 📘 Module 01 - Variables & Data Types
+# 📘 Variables & Data Types
 
-## 📚 Days Covered
-
-### ✅ Day 1
-
-- Dart Introduction
-- main()
-- print()
-- void
-- Line Termination
+> This module builds the foundation of Dart programming by teaching how data is stored, managed and used. Every Flutter application relies on these concepts.
 
 ---
 
-### ✅ Day 2
+# 🎯 Module Goal
+
+After completing this module, you will be able to:
+
+- Understand how Dart programs execute.
+- Store data using variables.
+- Use different data types.
+- Print variables professionally.
+- Use String Interpolation.
+- Understand Type Inference.
+- Write clean beginner-level Dart programs.
+- Read basic Flutter code confidently.
+
+---
+
+# 📚 Topics Covered
+
+## ✅ Day 1
+
+- Introduction to Dart
+- Why Dart?
+- First Program
+- `main()`
+- `print()`
+- `void`
+- Line Termination (`;`)
+
+---
+
+## ✅ Day 2
 
 - Variables
 - Data Types
@@ -20,19 +41,35 @@
 - int
 - double
 - bool
-- Printing Variables
-- Type Conversion
 - Variable Naming Rules
+- Printing Variables
+- Type Conversion (`toString()`)
 
 ---
 
-### ✅ Day 3
+## ✅ Day 3
 
 - String Interpolation
+- `$variable`
+- `${expression}`
 - var Keyword
 - Type Inference
 - Type Safety
-- Professional Console Formatting
+
+---
+
+
+
+---
+# 📂 Programs
+
+| Day | Programs |
+|------|----------|
+| Day 1 | 1 |
+| Day 2 | 5 |
+| Day 3 | 5 |
+v
+**Total Programs : 11**
 
 ---
 
@@ -48,20 +85,26 @@
 
 ---
 
-# 🎯 Learning Outcome
+# ☕ Java vs Dart
 
-After completing this module you can:
-
-- Create variables
-- Use data types
-- Print values professionally
-- Use String Interpolation
-- Understand Type Inference
-- Write clean Dart code
-- Read beginner Flutter code easily
+| Java | Dart |
+|------|------|
+| String name | var name |
+| System.out.println() | print() |
+| + for concatenation | String Interpolation |
 
 ---
 
 # 📱 Flutter Connection
 
-This module is the foundation of every Flutter application because widgets constantly display variables and user data.
+This module is the backbone of Flutter.
+
+Without understanding variables, data types and interpolation, Flutter widgets become difficult to understand.
+
+---
+
+# 🚀 What's Next?
+
+Module 02
+
+**Operators**
