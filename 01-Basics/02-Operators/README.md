@@ -1,6 +1,6 @@
 # 📘 Operators
 
-> This module teaches how to perform calculations, comparisons, and logical operations in Dart. Operators are one of the most frequently used concepts in Flutter because almost every application performs calculations or decision making.
+> This module teaches how to perform calculations, compare values, and make logical decisions using Dart operators. Operators are the backbone of real-world applications because they are used in calculations, validations, and decision-making.
 
 ---
 
@@ -8,12 +8,12 @@
 
 After completing this module, you will be able to:
 
-- Understand different types of operators.
 - Perform arithmetic calculations.
-- Compare values.
-- Make logical decisions.
-- Solve real-world mathematical problems.
-- Build calculation-based Flutter applications.
+- Compare values using relational operators.
+- Check equality between values.
+- Build real-world validation logic.
+- Understand decision-making fundamentals.
+- Prepare for Flutter conditional programming.
 
 ---
 
@@ -23,7 +23,7 @@ After completing this module, you will be able to:
 
 ### Arithmetic Operators
 
-- Assignment Operator (`=`)
+- Assignment (`=`)
 - Addition (`+`)
 - Subtraction (`-`)
 - Multiplication (`*`)
@@ -33,16 +33,30 @@ After completing this module, you will be able to:
 
 ---
 
+## ✅ Day 5
+
+### Comparison Operators
+
+- Greater Than (`>`)
+- Less Than (`<`)
+- Greater Than or Equal (`>=`)
+- Less Than or Equal (`<=`)
+
+### Equality Operators
+
+- Equal To (`==`)
+- Not Equal To (`!=`)
+
+---
+
 ## ⏳ Upcoming
-
-### Day 5
-
-- Relational Operators
-- Equality Operators
 
 ### Day 6
 
 - Logical Operators
+  - `&&`
+  - `||`
+  - `!`
 
 ### Day 7
 
@@ -56,19 +70,20 @@ After completing this module, you will be able to:
 | Day | Programs |
 |------|----------|
 | Day 4 | 5 |
+| Day 5 | 5 |
 
-**Total Programs : 5**
+**Total Programs : 10**
 
 ---
 
-# 📊 Dart Dashboard
+# 📊 Operators Dashboard
 
 | Metric | Progress |
 |---------|----------|
-| Days Completed | 1 |
-| Programs Completed | 5 |
-| Current Module | Operators |
-| Current Day | Day 4 |
+| Days Completed | 2 |
+| Programs Completed | 10 |
+| Current Topic | Comparison Operators |
+| Next Topic | Logical Operators |
 | Difficulty | Beginner |
 | Status | 🟢 In Progress |
 
@@ -80,36 +95,34 @@ Most operators work exactly like Java.
 
 Example
 
-Java
-
 ```java
 int sum = a + b;
+boolean result = age >= 18;
 ```
-
-Dart
 
 ```dart
 var sum = a + b;
+var result = age >= 18;
 ```
 
-The biggest difference is that Dart also provides the Integer Division operator (`~/`).
+The main difference is Dart's `~/` operator for integer division.
 
 ---
 
 # 📱 Flutter Connection
 
-Operators are used in almost every Flutter application.
+Operators are used throughout Flutter applications.
 
 Examples
 
-- Shopping Cart Total
-- Expense Tracker
-- EMI Calculator
-- Banking Apps
+- Login Validation
+- Shopping Cart
+- Banking Applications
 - Student Result
-- Discount Calculator
-- Food Delivery Apps
-- E-Commerce Applications
+- Expense Tracker
+- Offer Eligibility
+- Free Delivery
+- OTP Verification
 
 ---
 
@@ -125,6 +138,16 @@ Examples
 
 ---
 
+## Day 5
+
+- 01_relational_operators.dart
+- 02_equality_operators.dart
+- 03_age_checker.dart
+- 04_student_eligibility.dart
+- 05_assignment.dart
+
+---
+
 # 🚀 Next Topic
 
-**Comparison & Equality Operators**
+Logical Operators (`&&`, `||`, `!`)

@@ -4,74 +4,9 @@
 
 # 📖 Introduction
 
-Operators are one of the most important concepts in programming.
+Operators are special symbols that perform operations on values or variables.
 
-Without operators we cannot:
-
-- Calculate Bills
-- Calculate Marks
-- Find Profit/Loss
-- Calculate Interest
-- Compare Values
-- Make Decisions
-
-Almost every real-world software uses operators.
-
----
-
-# ❓ What is an Operator?
-
-## Definition
-
-An operator is a special symbol that performs an operation on values or variables.
-
-Example
-
-```dart
-10 + 20
-```
-
-Here,
-
-```
-+
-```
-
-is an operator.
-
----
-
-# 🌍 Real Life Example
-
-Calculator
-
-```
-15 + 5
-
-↓
-
-20
-```
-
-Shopping App
-
-```
-Price × Quantity
-
-↓
-
-Total Bill
-```
-
-Banking App
-
-```
-Balance - Withdraw
-
-↓
-
-Remaining Balance
-```
+Without operators, software cannot calculate, compare, or make decisions.
 
 ---
 
@@ -83,15 +18,7 @@ Remaining Balance
 =
 ```
 
-Purpose
-
-Assigns values to variables.
-
-Example
-
-```dart
-var age = 19;
-```
+Assigns a value to a variable.
 
 ---
 
@@ -108,37 +35,53 @@ var age = 19;
 
 ---
 
-# Difference Between `/` and `~/`
+## Key Learning
 
-```
-10 / 3
-
-↓
-
-3.333333
-```
-
-```
-10 ~/ 3
-
-↓
-
-3
-```
+- `/` returns a double.
+- `~/` removes the decimal part.
+- `%` returns the remainder.
 
 ---
 
-# Modulus
+# 📚 Day 5 Summary
+
+## Comparison Operators
+
+Compare two values and always return a boolean value.
+
+### Operators
+
+- `>`
+- `<`
+- `>=`
+- `<=`
+
+---
+
+## Equality Operators
+
+Used to compare whether two values are equal or not.
+
+### Operators
+
+- `==`
+- `!=`
+
+---
+
+## Key Learning
+
+Comparison operators do **not** return numbers.
+
+They always return:
 
 ```
-10 % 3
+true
 
-↓
+or
 
-1
+false
 ```
-
-Returns the remainder.
 
 ---
 
@@ -153,7 +96,7 @@ Choose Operator
 
 ↓
 
-Perform Calculation
+Perform Operation
 
 ↓
 
@@ -169,65 +112,62 @@ Display Output
 # 🧠 Memory Diagram
 
 ```
-num1 = 10
-num2 = 5
+age = 19
 
-       │
+minimumAge = 18
 
-       ▼
+↓
 
-Operator
+age >= minimumAge
 
-       │
+↓
 
-       ▼
+true
 
-Result
+↓
 
-       │
+Stored inside
 
-       ▼
-
-Stored in Variable
-
-       │
-
-       ▼
-
-Output
+isEligible
 ```
 
 ---
 
 # 💡 Best Practices
 
-✅ Use meaningful variable names.
+- Use meaningful variable names.
+- Store results inside variables.
+- Print readable output.
+- Use boolean variable names beginning with `is`, `has`, or `can`.
 
-✅ Store calculation results inside variables.
+Examples
 
-✅ Format console output properly.
+```
+isEligible
 
-✅ Avoid printing direct calculations repeatedly.
+isLoggedIn
+
+hasPermission
+
+canVote
+```
 
 ---
 
 # ⚠ Common Mistakes
 
-❌ Confusing `/` with `~/`
-
-❌ Poor variable naming
-
-❌ Spelling mistakes
-
-❌ Printing calculations directly instead of storing them
+- Confusing `=` with `==`
+- Printing only `true` or `false` without context
+- Poor variable naming
+- Spelling mistakes
 
 ---
 
 # ☕ Java vs Dart
 
-Almost all arithmetic operators work exactly like Java.
+Most operators work exactly like Java.
 
-The only new operator for Java learners is
+The only new operator learned so far is:
 
 ```
 ~/
@@ -239,30 +179,15 @@ which performs Integer Division.
 
 # 📱 Flutter Connection
 
-Operators are heavily used in Flutter.
+Operators are used for:
 
-Examples
-
+- Login Validation
 - Cart Total
-- Order Summary
-- Calculator
-- Discount
-- Tax Calculation
-- EMI
+- Discount Calculation
 - Banking Apps
-- Expense Tracker
-
----
-
-# 🎯 Interview Questions
-
-Q. What is an operator?
-
-Q. Difference between `/` and `~/`?
-
-Q. What is the purpose of `%`?
-
-Q. What is an Assignment Operator?
+- Attendance
+- Exam Result
+- Shopping Apps
 
 ---
 
@@ -271,19 +196,16 @@ Q. What is an Assignment Operator?
 ```
 Operators
 
-████░░░░░░░░░░░░░░
+██████████░░░░░░░░░░
 
 Completed
 
 ✅ Arithmetic Operators
+✅ Comparison Operators
 
 Upcoming
 
-⏳ Comparison Operators
-
 ⏳ Logical Operators
-
-⏳ Assignment Operators
-
-⏳ Bitwise Operators (Introduction)
+⏳ Increment / Decrement
+⏳ Compound Assignment Operators
 ```
