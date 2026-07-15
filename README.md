@@ -2,6 +2,8 @@
 
 ## Folder Structure
 
+```text
+
 Dart-Journey/
 │
 ├── README.md                  ← Main Repository README
@@ -76,3 +78,4 @@ Dart-Journey/
 └── Assets/
     ├── images/
     └── diagrams/
+```
