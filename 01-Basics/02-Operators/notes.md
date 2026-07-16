@@ -1,30 +1,56 @@
-# 📒 Operators
+# 📘 Operators Module Notes
 
 ---
 
-# 📖 Introduction
+# 📖 What are Operators?
 
-Operators are special symbols that perform operations on values or variables.
+Operators are special symbols used to perform operations on variables and values.
 
-Without operators, software cannot calculate, compare, or make decisions.
+Without operators, a program cannot perform calculations, comparisons, or logical decisions.
 
 ---
 
-# 📚 Day 4 Summary
+# 🌳 Operator Hierarchy
 
-## Assignment Operator
+```
+
+Variables
+
+↓
+
+Operators
+
+↓
+
+Result
+
+↓
+
+Output
+
+```
+
+---
+
+# 📚 1. Assignment Operator
 
 ```
 =
 ```
 
-Assigns a value to a variable.
+Used to assign values.
+
+Example
+
+```dart
+var age = 19;
+```
 
 ---
 
-## Arithmetic Operators
+# 📚 2. Arithmetic Operators
 
-| Operator | Purpose |
+| Operator | Meaning |
 |----------|----------|
 | + | Addition |
 | - | Subtraction |
@@ -35,45 +61,31 @@ Assigns a value to a variable.
 
 ---
 
-## Key Learning
+## Important Rule
 
-- `/` returns a double.
-- `~/` removes the decimal part.
-- `%` returns the remainder.
+```
+/
 
----
+Always returns
 
-# 📚 Day 5 Summary
+double
+```
 
-## Comparison Operators
+```
+~/
 
-Compare two values and always return a boolean value.
+Always returns
 
-### Operators
-
-- `>`
-- `<`
-- `>=`
-- `<=`
+int
+```
 
 ---
 
-## Equality Operators
+# 📚 3. Comparison Operators
 
-Used to compare whether two values are equal or not.
+Compare two values.
 
-### Operators
-
-- `==`
-- `!=`
-
----
-
-## Key Learning
-
-Comparison operators do **not** return numbers.
-
-They always return:
+Return
 
 ```
 true
@@ -83,129 +95,276 @@ or
 false
 ```
 
----
-
-# 🌳 Flowchart
+Operators
 
 ```
-Variables
+>
 
-↓
+<
 
-Choose Operator
+>=
 
-↓
-
-Perform Operation
-
-↓
-
-Store Result
-
-↓
-
-Display Output
+<=
 ```
 
 ---
 
-# 🧠 Memory Diagram
+# 📚 4. Equality Operators
 
 ```
-age = 19
+==
 
-minimumAge = 18
+!=
+```
 
-↓
+Used to compare equality between two values.
 
-age >= minimumAge
+---
 
-↓
+# 📚 5. Logical Operators
 
+```
+&&
+
+||
+
+!
+```
+
+Used to combine multiple conditions.
+
+---
+
+## AND
+
+```
+Condition A
+
+AND
+
+Condition B
+```
+
+Both must be true.
+
+---
+
+## OR
+
+```
+Condition A
+
+OR
+
+Condition B
+```
+
+At least one must be true.
+
+---
+
+## NOT
+
+```
 true
 
 ↓
 
-Stored inside
+false
+```
 
-isEligible
+```
+false
+
+↓
+
+true
 ```
 
 ---
 
-# 💡 Best Practices
-
-- Use meaningful variable names.
-- Store results inside variables.
-- Print readable output.
-- Use boolean variable names beginning with `is`, `has`, or `can`.
-
-Examples
+# 📚 6. Increment & Decrement
 
 ```
-isEligible
+++
+```
 
-isLoggedIn
+Increase by one.
 
-hasPermission
+```
+--
+```
 
-canVote
+Decrease by one.
+
+---
+
+# 📚 7. Compound Assignment
+
+```
++=
+
+-=
+
+*=
+
+/=
+
+%=
+```
+
+Short form of assignment.
+
+Example
+
+Instead of
+
+```dart
+balance = balance + 500;
+```
+
+Use
+
+```dart
+balance += 500;
 ```
 
 ---
 
-# ⚠ Common Mistakes
+# 🧠 Memory Map
 
-- Confusing `=` with `==`
-- Printing only `true` or `false` without context
-- Poor variable naming
-- Spelling mistakes
+```
+Variable
+
+↓
+
+Operator
+
+↓
+
+Expression
+
+↓
+
+Result
+
+↓
+
+Print
+
+↓
+
+Decision
+```
 
 ---
 
 # ☕ Java vs Dart
 
-Most operators work exactly like Java.
+Almost identical syntax.
 
-The only new operator learned so far is:
+One major difference
 
 ```
+/
+
+↓
+
+double
+
 ~/
-```
 
-which performs Integer Division.
+↓
+
+int
+```
 
 ---
 
 # 📱 Flutter Connection
 
-Operators are used for:
+Operators are used in:
 
-- Login Validation
-- Cart Total
-- Discount Calculation
-- Banking Apps
-- Attendance
-- Exam Result
+- Login Systems
 - Shopping Apps
+- Banking Apps
+- Attendance Apps
+- School ERP
+- Expense Tracker
+- E-commerce
+- Payment Gateway
+- User Validation
 
 ---
 
-# 📌 Module Progress
+# ⚠ Common Mistakes
+
+❌ Using `=` instead of `==`
+
+❌ Forgetting `/` returns `double`
+
+❌ Using poor variable names
+
+❌ Confusing `&&` and `||`
+
+❌ Using `>` instead of `>=` where equality should also be accepted
+
+---
+
+# 🎯 Best Practices
+
+- Use meaningful variable names.
+- Store boolean results in variables.
+- Print readable output.
+- Prefer compound assignment where appropriate.
+- Write clean and consistent formatting.
+
+---
+
+# 📌 Module Summary
+
+After completing this module, I can:
+
+✅ Perform calculations
+
+✅ Compare values
+
+✅ Use boolean expressions
+
+✅ Combine multiple conditions
+
+✅ Update variables efficiently
+
+✅ Write real-world validation logic
+
+✅ Build the foundation for Decision Making
+
+---
+
+# 🏆 Module Progress
 
 ```
-Operators
+Variables & Data Types  ✅
 
-██████████░░░░░░░░░░
+Operators              ✅
 
-Completed
+Input / Output         ⏳
 
-✅ Arithmetic Operators
-✅ Comparison Operators
+Decision Making        ⏳
 
-Upcoming
+Loops                  ⏳
 
-⏳ Logical Operators
-⏳ Increment / Decrement
-⏳ Compound Assignment Operators
+Functions              ⏳
+
+Collections            ⏳
+
+OOP                    ⏳
+
+Null Safety            ⏳
+
+Exception Handling     ⏳
+
+Async                  ⏳
+
+Flutter                ⏳
 ```
