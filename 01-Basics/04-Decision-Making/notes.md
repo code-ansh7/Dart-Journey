@@ -1,276 +1,291 @@
-# 📖 Module Notes - Decision Making
+# 📒 Module Notes
+# Decision Making
 
 ---
 
-# What is Decision Making?
+# 📌 What is Decision Making?
 
-Decision Making is the ability of a program to choose different execution paths depending on whether a condition is true or false.
+Decision Making is the process of choosing different execution paths based on one or more conditions.
 
-Instead of executing every statement, the program evaluates a condition before performing an action.
+Programs use decision-making statements to determine what action should be performed according to user input or application logic.
+
+Without decision-making, every program would execute the same instructions every time.
 
 ---
 
-# Why Do We Need Decision Making?
+# Why is Decision Making Important?
 
-Imagine a few real-life scenarios:
+Almost every software application depends on conditions.
 
-### ATM
+Examples
 
-```
-Balance >= Withdraw Amount
+- Login Authentication
+- ATM Machine
+- Banking
+- Shopping Apps
+- Hospital Software
+- School ERP
+- Payment Gateway
+- Food Delivery
+- Online Exams
+
+---
+
+# Decision Making Statements Learned
+
+## 1. if Statement
+
+Used when code should execute only if a condition is true.
+
+Example
+
+```text
+Age >= 18
 
 ↓
 
-Allow Withdrawal
+Eligible
 ```
 
 ---
 
-### Instagram
+## 2. if-else Statement
 
-```
+Used when there are two possible outcomes.
+
+Example
+
+```text
 Password Correct
 
 ↓
 
 Login
+
+Else
+
+↓
+
+Invalid Password
 ```
 
 ---
 
-### College Portal
+## 3. else-if Ladder
 
-```
-Attendance >= 75%
+Used when multiple conditions need to be checked.
 
-↓
+Example
 
-Allow Examination
-```
-
----
-
-### Shopping Website
-
-```
-Cart Value >= ₹500
+```text
+Marks
 
 ↓
 
-Free Delivery
-```
-
-Every software application makes decisions before taking actions.
-
----
-
-# General Flow of Decision Making
-
-```
-Start
+A+
 
 ↓
 
-Take Input
+A
 
 ↓
 
-Check Condition
+B
 
 ↓
 
-Condition True?
+C
 
 ↓
 
-Yes ─────────► Execute Code
-
-No ─────────► Skip / Execute Another Path
-
-↓
-
-End
+Fail
 ```
 
 ---
 
-# Decision Making Statements in Dart
+## 4. Nested if
 
-This module covers:
+An if statement written inside another if statement.
 
-- if
-- if-else
-- else-if Ladder
-- Nested if
-- switch
-- Ternary Operator
+Used when one decision depends on another.
 
-Each statement is designed for different decision-making scenarios.
+Example
+
+Login
+
+↓
+
+Menu
+
+↓
+
+Withdraw
+
+↓
+
+Balance Check
 
 ---
 
-# Topics Covered
+## 5. Logical AND (&&)
 
-## ✅ Day 08
+Used when all conditions must be true.
 
-### if Statement
+Example
 
-The `if` statement executes a block of code only when the condition is true.
+Username Correct
 
-Key Concepts:
+AND
 
-- Boolean Expressions
-- Relational Operators
-- Conditional Execution
-- Simple Decision Making
+Password Correct
 
-Programs:
+↓
 
-- if Syntax
+Login Success
+
+---
+
+# Programs Built
+
+Day 08
+
 - Voting Eligibility
-- ATM Withdrawal
+- ATM Withdraw
 - Exam Permission
-- Scholarship Eligibility
+- Scholarship Checker
 
----
+Day 09
 
-## ⏳ Day 09
-
-### if-else Statement
-
-(To be updated...)
-
----
-
-## ⏳ Day 10
-
-### else-if Ladder
-
-(To be updated...)
-
----
-
-## ⏳ Day 11
-
-### Nested if
-
-(To be updated...)
-
----
-
-## ⏳ Day 12
-
-### switch Statement
-
-(To be updated...)
-
----
-
-## ⏳ Day 13
-
-### Ternary Operator
-
-(To be updated...)
-
----
-
-# Best Practices
-
-✔ Use meaningful conditions.
-
-✔ Keep conditions short and readable.
-
-✔ Always test boundary values.
-
-✔ Use braces `{}` for better readability.
-
-✔ Choose the right decision-making statement for the situation.
-
----
-
-# Common Beginner Mistakes
-
-- Using `=` instead of `==`
-- Forgetting braces
-- Writing complex conditions
-- Ignoring edge cases
-- Poor variable naming
-
----
-
-# Java vs Dart
-
-| Java | Dart |
-|------|------|
-| if | if |
-| else | else |
-| else-if | else-if |
-| switch | switch |
-
-The decision-making concepts remain the same across both languages.
+- Login System
+- ATM System
+- Voting System
+- Exam Result
+- Free Delivery
+- Discount Checker
+- Grade System
+- Salary Bonus
+- Movie Ticket
+- Traffic Signal
+- Smart Banking System
 
 ---
 
 # Flutter Connection
 
-Decision Making is heavily used in Flutter to:
+Decision-making is one of the most frequently used concepts in Flutter.
 
-- Validate Forms
-- Authenticate Users
-- Show or Hide Widgets
-- Navigate Between Screens
-- Display Error Messages
-- Handle Permissions
+Examples
+
+Login Screen
+
+↓
+
+Authentication
+
+↓
+
+Home Screen
 
 ---
 
-# Module Progress
+Shopping App
 
-```text
-Decision Making
-│
-├── ✅ Day 08 : if Statement
-├── ⏳ Day 09 : if-else
-├── ⏳ Day 10 : else-if Ladder
-├── ⏳ Day 11 : Nested if
-├── ⏳ Day 12 : switch
-└── ⏳ Day 13 : Ternary Operator
-```
+↓
+
+Check Discount
+
+↓
+
+Update UI
 
 ---
 
-# Quick Revision
-
-```
-Input
+Theme Mode
 
 ↓
 
-Condition
+Dark Theme
 
 ↓
 
-Decision
+Light Theme
+
+---
+
+Navigation
 
 ↓
 
-Execution
+Successful Login
 
 ↓
 
-Output
-```
+Move to Dashboard
 
-Remember:
+---
 
-> **Decision Making allows a program to think before it acts.**
+# Best Practices
+
+✅ Use meaningful variable names.
+
+✅ Write readable conditions.
+
+✅ Remove unnecessary comparisons.
+
+✅ Think about invalid inputs.
+
+✅ Prefer else-if over multiple if statements for mutually exclusive conditions.
+
+---
+
+# Common Mistakes
+
+❌ Forgetting the else block.
+
+❌ Using > instead of >=.
+
+❌ Writing deeply nested if statements unnecessarily.
+
+❌ Using multiple if statements when an else-if ladder is more appropriate.
+
+❌ Not validating user input.
+
+---
+
+# Interview Revision
+
+Remember these differences:
+
+| Concept | Purpose |
+|----------|---------|
+| if | One condition |
+| if-else | Two outcomes |
+| else-if | Multiple outcomes |
+| Nested if | Decision inside another decision |
+| && | All conditions must be true |
+
+---
+
+# Developer Mindset
+
+A developer should not only think:
+
+"Will my code work?"
+
+They should also ask:
+
+- Is it readable?
+- Can it be simplified?
+- Is every condition necessary?
+- Have I handled invalid input?
+- Will another developer understand this code easily?
 
 ---
 
 # Module Summary
 
-Decision Making transforms a simple program into an interactive application.
+After completing this module, I can confidently write programs that make decisions based on user input.
 
-By learning conditional statements, we teach our programs **when to execute code, when to skip it, and how to choose between multiple paths**.
+I understand how decision-making works in Dart and how these concepts are directly used in Flutter applications such as login systems, navigation, validation, banking, shopping, and user interaction.
 
-This module is the foundation for logic building, algorithms, and advanced problem-solving.
+This module significantly improved my logical thinking and prepared me for writing real-world Flutter application logic.

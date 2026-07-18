@@ -1,174 +1,215 @@
 # 🧠 Module 04 - Decision Making
 
-> "Programming becomes intelligent when it can make decisions."
+> "Programs become intelligent when they can make decisions."
 
 ---
 
-# 📌 Overview
+# 📖 Module Overview
 
-Decision Making is one of the most important concepts in programming.
+Decision Making is one of the most important fundamentals of programming.
 
-Until now, our programs executed every statement in sequence. However, real-world software needs to decide **when** a piece of code should run.
+In this module, I learned how programs choose different execution paths based on conditions. These concepts are used in almost every real-world application such as banking systems, login authentication, shopping apps, ticket booking systems, and Flutter applications.
 
-This module introduces decision-making statements in Dart, allowing programs to execute code based on conditions.
-
-Whether it's checking login credentials, verifying attendance, validating payments, or granting permissions, Decision Making is used everywhere.
+This module strengthened my logical thinking and helped me understand how software behaves according to user input.
 
 ---
 
 # 🎯 Module Objectives
 
-After completing this module, you will be able to:
-
-- Understand how programs make decisions.
-- Use conditional statements effectively.
-- Build logic-based applications.
-- Handle multiple execution paths.
-- Improve problem-solving skills.
+- Learn conditional statements in Dart
+- Build decision-making logic
+- Develop real-world applications
+- Improve logical thinking
+- Prepare for Flutter development
+- Strengthen interview fundamentals
 
 ---
 
 # 📚 Topics Covered
 
 | Day | Topic | Status |
-|------|-------|--------|
-| Day 08 | if Statement | ✅ Completed |
-| Day 09 | if-else Statement | ⏳ Pending |
-| Day 10 | else-if Ladder | ⏳ Pending |
-| Day 11 | Nested if | ⏳ Pending |
-| Day 12 | switch Statement | ⏳ Pending |
-| Day 13 | Ternary Operator | ⏳ Pending |
+|-----:|-------|:------:|
+| Day 08 | if Statement | ✅ |
+| Day 09 | if-else Statement | ✅ |
+| Day 09 | else-if Ladder | ✅ |
+| Day 09 | Nested if | ✅ |
+| Day 09 | Logical AND (&&) | ✅ |
+| Day 10 | switch Statement | ⏳ |
+| Day 10 | Ternary Operator | ⏳ |
 
 ---
 
-# 💻 Programs
+# 💻 Programs Completed
 
-## 📅 Day 08
+## Day 08
 
-- Basic if Statement
-- Voting Eligibility Checker
-- ATM Withdrawal Checker
-- Exam Permission System
-- Scholarship Eligibility Checker
-
----
-
-## 📅 Day 09
-
-*To be updated...*
+- if Syntax
+- Voting Eligibility
+- ATM Withdraw
+- Exam Permission
+- Scholarship Checker
 
 ---
 
-## 📅 Day 10
+## Day 09
 
-*To be updated...*
-
----
-
-## 📅 Day 11
-
-*To be updated...*
-
----
-
-## 📅 Day 12
-
-*To be updated...*
-
----
-
-## 📅 Day 13
-
-*To be updated...*
+- if-else Syntax
+- Login System
+- ATM System
+- Voting System
+- Exam Result
+- Free Delivery
+- Discount Checker
+- Grade System
+- Salary Bonus
+- Movie Ticket
+- Traffic Signal
+- Smart Banking System
 
 ---
 
-# 🌍 Real-World Applications
+# 🌍 Real-World Projects Built
 
-Decision Making is used in almost every software application.
-
-Examples:
-
-- ATM Machines
-- Login Systems
-- Banking Applications
-- Instagram Authentication
-- Hospital Management
-- Student Management
-- Shopping Websites
-- E-Commerce Platforms
-- Online Examinations
-- Ride Booking Apps
-
----
-
-# ☕ Java vs Dart
-
-| Java | Dart |
-|------|------|
-| if | if |
-| if-else | if-else |
-| else-if | else-if |
-| switch | switch |
-| ternary | ternary |
-
-The syntax is almost identical, making Dart easier to learn for Java developers.
+- Login Authentication
+- ATM Withdrawal
+- Voting System
+- Grade Calculator
+- Salary Bonus Calculator
+- Shopping Discount System
+- Delivery Charge Calculator
+- Movie Ticket Pricing
+- Traffic Signal Simulator
+- Smart Banking System
 
 ---
 
 # 📱 Flutter Connection
 
-Decision Making is used in Flutter for:
+Decision-making is used in almost every Flutter application.
+
+Examples:
 
 - Login Validation
-- Authentication
-- Showing/Hiding Widgets
-- Error Messages
+- User Authentication
+- OTP Verification
 - Navigation
-- Theme Switching
-- Permissions
+- Theme Selection
 - Form Validation
+- Payment Gateway
+- Shopping Cart
+- Conditional Widget Rendering
+- Error Handling
 
-Without Decision Making, Flutter applications cannot become interactive.
+Without decision-making, Flutter applications cannot respond to user actions.
 
 ---
 
-# 🚀 Developer Tips
+# ☕ Java vs Dart
 
-✔ Write readable conditions.
+Since I already know Core Java, learning Dart decision statements became easier because the syntax is almost identical.
 
-✔ Use meaningful variable names.
+Java
 
-✔ Prefer braces even for single-line blocks.
+```java
+if(condition){
 
-✔ Think about every possible scenario.
+}else if(condition){
 
-✔ Test both true and false cases.
+}else{
 
-✔ Keep business logic simple and clean.
+}
+```
+
+Dart
+
+```dart
+if(condition){
+
+}else if(condition){
+
+}else{
+
+}
+```
+
+---
+
+# 🧠 Skills Gained
+
+After completing this module, I can:
+
+✅ Build decision-making programs
+
+✅ Use if statements
+
+✅ Use if-else statements
+
+✅ Build else-if ladders
+
+✅ Write nested if statements
+
+✅ Use logical operators
+
+✅ Solve real-world logic problems
+
+✅ Design menu-driven applications
+
+---
+
+# 🎤 Interview Preparation
+
+Important Questions
+
+- What is Decision Making?
+- Difference between if and if-else
+- Difference between else-if and multiple if
+- What is Nested if?
+- What are Logical Operators?
+- Why is decision-making important in Flutter?
+- When should we use switch instead of if-else?
 
 ---
 
 # 📊 Module Dashboard
 
 | Category | Progress |
-|----------|----------|
+|-----------|----------|
 | Module | Decision Making |
-| Days Completed | 1 / 6 |
-| Programs Completed | 5 |
-| Current Topic | if Statement |
-| Next Topic | if-else Statement |
-| Difficulty | ⭐⭐☆☆☆ |
-| Status | 🟡 In Progress |
+| Days Completed | 2 |
+| Concepts Learned | 5 |
+| Programs Completed | 17 |
+| Mini Projects | 1 |
+| Difficulty | ⭐⭐⭐☆☆ |
+| Flutter Readiness | 🟢 Strong Foundation |
+| Next Module Topic | switch & Ternary |
 
 ---
 
-# 🎯 Learning Outcome
+# 🚀 Learning Outcome
 
-After completing this module, you will be able to build applications that make logical decisions based on user input and conditions.
+This module helped me understand how software makes decisions based on user input.
 
-This module lays the foundation for problem-solving, algorithms, and interactive application development.
+I also built my first mini application (Smart Banking System), which combined multiple concepts into a single real-world project.
+
+This module laid the foundation for Flutter app logic, authentication systems, navigation, and user interaction.
 
 ---
 
-> "A computer follows instructions. A programmer decides **which** instructions should run."
+# 📌 Next Module Progress
+
+⬜ switch Statement
+
+⬜ Ternary Operator
+
+⬜ Loops
+
+---
+
+# 🏁 Module Status
+
+**🟢 In Progress (Core Decision Making Completed)**
+
+Remaining:
+
+- switch
+- Ternary Operator
