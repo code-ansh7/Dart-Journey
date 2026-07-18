@@ -5,11 +5,11 @@
 
 # 📌 What is Decision Making?
 
-Decision Making is the process of choosing different execution paths based on one or more conditions.
+Decision Making is the process of controlling the execution flow of a program based on conditions.
 
-Programs use decision-making statements to determine what action should be performed according to user input or application logic.
+It allows software to perform different actions depending on user input, data, or application state.
 
-Without decision-making, every program would execute the same instructions every time.
+Without decision-making, every program would execute the same instructions regardless of the situation.
 
 ---
 
@@ -17,46 +17,46 @@ Without decision-making, every program would execute the same instructions every
 
 Almost every software application depends on conditions.
 
-Examples
+Examples:
 
-- Login Authentication
-- ATM Machine
-- Banking
-- Shopping Apps
-- Hospital Software
-- School ERP
-- Payment Gateway
-- Food Delivery
-- Online Exams
+- Login Systems
+- Banking Applications
+- ATM Machines
+- Shopping Websites
+- Hospital Management Systems
+- School Management Systems
+- Payment Gateways
+- Food Delivery Apps
+- Flutter Applications
 
 ---
 
-# Decision Making Statements Learned
+# Concepts Learned
 
 ## 1. if Statement
 
 Used when code should execute only if a condition is true.
 
-Example
+Example:
 
 ```text
 Age >= 18
 
 ↓
 
-Eligible
+Eligible to Vote
 ```
 
 ---
 
 ## 2. if-else Statement
 
-Used when there are two possible outcomes.
+Used when there are exactly two possible outcomes.
 
-Example
+Example:
 
 ```text
-Password Correct
+Correct Password
 
 ↓
 
@@ -73,9 +73,9 @@ Invalid Password
 
 ## 3. else-if Ladder
 
-Used when multiple conditions need to be checked.
+Used when multiple conditions need to be checked sequentially.
 
-Example
+Example:
 
 ```text
 Marks
@@ -105,17 +105,18 @@ Fail
 
 ## 4. Nested if
 
-An if statement written inside another if statement.
+A conditional statement placed inside another conditional statement.
 
-Used when one decision depends on another.
+Useful when one decision depends on another.
 
-Example
+Example:
 
+```text
 Login
 
 ↓
 
-Menu
+ATM Menu
 
 ↓
 
@@ -123,16 +124,18 @@ Withdraw
 
 ↓
 
-Balance Check
+Check Balance
+```
 
 ---
 
 ## 5. Logical AND (&&)
 
-Used when all conditions must be true.
+Returns true only if all conditions are true.
 
-Example
+Example:
 
+```text
 Username Correct
 
 AND
@@ -141,86 +144,83 @@ Password Correct
 
 ↓
 
-Login Success
+Login Successful
+```
 
 ---
 
-# Programs Built
+## 6. switch Statement
 
-Day 08
+Used when comparing a variable against multiple fixed values.
 
-- Voting Eligibility
-- ATM Withdraw
-- Exam Permission
-- Scholarship Checker
+Best suited for:
 
-Day 09
+- Menus
+- Language Selection
+- Payment Methods
+- Theme Selection
+- User Roles
 
-- Login System
-- ATM System
-- Voting System
-- Exam Result
-- Free Delivery
-- Discount Checker
-- Grade System
-- Salary Bonus
-- Movie Ticket
-- Traffic Signal
+---
+
+## 7. break Statement
+
+Stops the execution of the current switch case.
+
+Without break, the flow would continue to the next case.
+
+---
+
+## 8. default Case
+
+Executes when none of the cases match.
+
+Used for invalid choices.
+
+---
+
+## 9. Ternary Operator
+
+Short form of an if-else statement.
+
+Syntax:
+
+```dart
+condition ? trueValue : falseValue;
+```
+
+Suitable only for simple decisions.
+
+---
+
+# Real-World Applications
+
+Throughout this module, I built applications such as:
+
 - Smart Banking System
+- ATM Menu
+- Payment Gateway
+- Restaurant POS
+- Admin Dashboard
+- Shopping Delivery System
+- Theme Selector
+
+These projects helped connect programming concepts with practical software development.
 
 ---
 
 # Flutter Connection
 
-Decision-making is one of the most frequently used concepts in Flutter.
+Decision-making is used in Flutter for:
 
-Examples
-
-Login Screen
-
-↓
-
-Authentication
-
-↓
-
-Home Screen
-
----
-
-Shopping App
-
-↓
-
-Check Discount
-
-↓
-
-Update UI
-
----
-
-Theme Mode
-
-↓
-
-Dark Theme
-
-↓
-
-Light Theme
-
----
-
-Navigation
-
-↓
-
-Successful Login
-
-↓
-
-Move to Dashboard
+- Login Authentication
+- Navigation
+- Theme Switching
+- Payment Selection
+- Conditional Widget Rendering
+- User Permissions
+- Shopping Cart Logic
+- Form Validation
 
 ---
 
@@ -228,64 +228,66 @@ Move to Dashboard
 
 ✅ Use meaningful variable names.
 
-✅ Write readable conditions.
+✅ Keep conditions simple and readable.
 
-✅ Remove unnecessary comparisons.
+✅ Prefer switch for fixed choices.
 
-✅ Think about invalid inputs.
+✅ Prefer if-else for ranges and comparisons.
 
-✅ Prefer else-if over multiple if statements for mutually exclusive conditions.
+✅ Use ternary only for short conditions.
+
+✅ Always include a default case in switch.
 
 ---
 
 # Common Mistakes
 
-❌ Forgetting the else block.
+❌ Forgetting break in switch.
 
-❌ Using > instead of >=.
+❌ Using switch for relational conditions.
 
-❌ Writing deeply nested if statements unnecessarily.
+❌ Writing deeply nested if statements.
 
-❌ Using multiple if statements when an else-if ladder is more appropriate.
+❌ Creating unreadable ternary expressions.
 
-❌ Not validating user input.
+❌ Ignoring invalid user input.
 
 ---
 
 # Interview Revision
 
-Remember these differences:
-
 | Concept | Purpose |
 |----------|---------|
-| if | One condition |
-| if-else | Two outcomes |
-| else-if | Multiple outcomes |
+| if | Execute code only when a condition is true |
+| if-else | Handle two possible outcomes |
+| else-if | Handle multiple conditions |
 | Nested if | Decision inside another decision |
 | && | All conditions must be true |
+| switch | Multiple fixed options |
+| break | Exit the current case |
+| default | Handle unmatched values |
+| Ternary | Short form of if-else |
 
 ---
 
 # Developer Mindset
 
-A developer should not only think:
+A good developer chooses the right decision-making structure based on the problem.
 
-"Will my code work?"
+- Use `if` for single conditions.
+- Use `if-else` for two outcomes.
+- Use `else-if` for multiple ranges.
+- Use `switch` for fixed options.
+- Use `ternary` only when it improves readability.
 
-They should also ask:
-
-- Is it readable?
-- Can it be simplified?
-- Is every condition necessary?
-- Have I handled invalid input?
-- Will another developer understand this code easily?
+Clean code is more important than short code.
 
 ---
 
 # Module Summary
 
-After completing this module, I can confidently write programs that make decisions based on user input.
+This module transformed basic Dart syntax into practical programming skills.
 
-I understand how decision-making works in Dart and how these concepts are directly used in Flutter applications such as login systems, navigation, validation, banking, shopping, and user interaction.
+I learned how to control program execution using conditional statements and built multiple real-world applications that simulate common software features.
 
-This module significantly improved my logical thinking and prepared me for writing real-world Flutter application logic.
+These concepts provide a strong foundation for Flutter development, where decision-making is essential for navigation, authentication, business logic, and dynamic user interfaces.
