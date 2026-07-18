@@ -2,7 +2,7 @@ import 'dart:io';
 
 void enterEffect(){
 
-  print("Press ENTER to Restart...");
+  print("Press ENTER to Continue...");
   stdin.readLineSync(); // Wait until Enter is pressed
 
   print("Restarting...");

@@ -67,13 +67,18 @@ void start(){
 
     } else if(choice == 6){
 
+      print("");
       print("Thankyou for Using My Calculator.");
+      print("");
       print("========================================");
       print("");  
       isStart = false;
 
     } else {
+      print("");
       print("Invalid Choice!");
+      print("");
+      enterEffect();
     }
 
   }
