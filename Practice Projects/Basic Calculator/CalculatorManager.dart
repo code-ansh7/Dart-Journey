@@ -10,6 +10,6 @@ int multiplication(int a, int b){
 int division(int a, int b){
   return a~/b;
 }
-int modulous(int a, int b){
+int modulus(int a, int b){
   return a%b;
 }
