@@ -7,5 +7,5 @@ void main() {
   print("🚀 Goal : $goal");
   print("💻 Daily Coding Target : $codingHours Hours");
   print("🔥 Dart Journey Started Successfully!");
-  print("🥇Starting Date : 07-07-2026");
+  print("🥇 Starting Date : 07-07-2026");
 }
