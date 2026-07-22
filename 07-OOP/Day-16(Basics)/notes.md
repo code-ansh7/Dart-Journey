@@ -256,28 +256,6 @@ s1 points to Object
 
 ---
 
-# Mermaid
-
-```mermaid
-flowchart TD
-
-A[Student Class]
-
-B[Student()]
-
-C[Object Created]
-
-D[s1]
-
-A --> B
-
-B --> C
-
-C --> D
-```
-
----
-
 # Dot Operator
 
 The Dot Operator is used to access
