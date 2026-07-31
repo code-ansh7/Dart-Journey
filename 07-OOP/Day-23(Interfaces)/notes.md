@@ -607,20 +607,3 @@ After completing Day 23, I can:
 ✅ Understand Interface-based Design
 
 ✅ Connect Interface concepts with Flutter Architecture
-
----
-
-# 🚀 What's Next?
-
-**Day 24 → Exception Handling**
-
-We'll learn:
-
-- try
-- catch
-- finally
-- throw
-- custom exceptions
-- real-world error handling
-
-These concepts are heavily used in Flutter while working with APIs, databases, file handling, and Firebase.

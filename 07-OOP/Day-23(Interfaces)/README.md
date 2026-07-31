@@ -240,19 +240,3 @@ Status : COMPLETED ✅
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
-
----
-
-# 🚀 Next Stop
-
-**Day 24 → Exception Handling**
-
-We'll learn how professional applications handle unexpected situations using:
-
-- try
-- catch
-- finally
-- throw
-- custom exceptions
-
-This is one of the most important topics before moving into APIs, Firebase, and real Flutter applications.

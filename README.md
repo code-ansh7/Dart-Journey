@@ -20,80 +20,6 @@ The ultimate goal of this repository is **to build a strong Dart foundation for 
 
 ---
 
-# 🛣 Learning Roadmap
-
-| Module | Status |
-|----------|:------:|
-| ✅ 01 - Variables & Data Types | ✅ Completed |
-| ✅ 02 - Operators | ✅ Completed |
-| ✅ 03 - Input / Output | ✅ Completed |
-| ✅ 04 - Decision Making | ✅ Completed |
-| ✅ 05 - Loops | ✅ Completed |
-| ✅ 06 - Functions | ✅ Completed |
-| 🟡 07 - Object-Oriented Programming | ⏳ Upcoming |
-| ⚪ 08 - Collections | Not Started |
-| ⚪ 09 - Exception Handling | Not Started |
-| ⚪ 10 - File Handling | Not Started |
-| ⚪ 11 - Null Safety | Not Started |
-| ⚪ 12 - Async Programming | Not Started |
-| ⚪ 13 - Advanced Dart | Not Started |
-
----
-
-# 📚 Repository Structure
-
-```
-DART-JOURNEY
-│
-├── 01-Variables_Datatypes
-├── 02-Operators
-├── 03-Input-Output
-├── 04-Decision-Making
-├── 05-Loops
-├── 06-Functions
-├── 07-OOP
-├── 08-Collections
-├── 09-Exception-Handling
-├── 10-File-Handling
-├── 11-Null-Safety
-├── 12-Async-Programming
-├── 13-Advanced-Dart
-│
-├── Practice Projects
-│
-├── README.md
-└── Flutter_Roadmap.pdf
-```
-
----
-
-# 📖 What Every Module Contains
-
-Every module follows the same structure.
-
-```
-Module
-│
-├── Day-01
-├── Day-02
-├── ...
-│
-├── README.md
-└── Notes.md
-```
-
-Each module includes:
-
-- 📖 Detailed Notes
-- 💻 Real World Programs
-- 🧠 Concepts
-- ☕ Java vs Dart
-- 📱 Flutter Connection
-- 📊 Progress Dashboard
-- 📝 Mini Projects (when applicable)
-
----
-
 # 🛠 Practice Projects
 
 Projects built while learning Dart.
@@ -103,32 +29,6 @@ Projects built while learning Dart.
 | 🧮 Basic Calculator | ✅ |
 | 🛒 Smart Grocery Billing System | ✅ |
 | 📦 More Projects Coming... | 🚧 |
-
----
-
-# 💻 Skills Covered
-
-### Dart Fundamentals
-
-- Variables
-- Data Types
-- Operators
-- Input / Output
-- Decision Making
-- Loops
-- Functions
-
----
-
-### Upcoming
-
-- OOP
-- Collections
-- Exception Handling
-- File Handling
-- Null Safety
-- Async Programming
-- Advanced Dart
 
 ---
 
@@ -143,18 +43,6 @@ The learning process focuses on:
 - Flutter Architecture
 - Object-Oriented Thinking
 - Developer Mindset
-
----
-
-# 📈 Repository Progress
-
-| Category | Progress |
-|----------|----------|
-| Modules Completed | 6 / 13 |
-| Practice Projects | 2 |
-| Mini Projects | 1 |
-| Flutter Readiness | 🟡 In Progress |
-| Current Module | Object-Oriented Programming |
 
 ---
 
@@ -227,18 +115,6 @@ More projects will be added as I progress.
 
 ---
 
-# 🎓 Current Learning Status
-
-```
-████████████░░░░░░░░░░░░
-
-Modules Completed : 6 / 13
-
-Progress : 46%
-```
-
----
-
 # 🚀 Future Goals
 
 - Complete Dart
@@ -268,28 +144,6 @@ Progress : 46%
 This repository is part of my personal learning journey toward becoming a professional Flutter Developer.
 
 Every module is documented with the goal of improving programming fundamentals, problem-solving skills, and software design thinking.
-
----
-
-# 📌 Current Status
-
-```
-✅ Variables & Data Types
-
-✅ Operators
-
-✅ Input / Output
-
-✅ Decision Making
-
-✅ Loops
-
-✅ Functions
-
-🚀 Currently Learning:
-
-Object-Oriented Programming (OOP)
-```
 
 ---
 
