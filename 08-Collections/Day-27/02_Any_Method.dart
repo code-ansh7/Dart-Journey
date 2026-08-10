@@ -1,3 +1,4 @@
+//If we want to check any product satisfy the following condition
 class Player {
   String name;
   bool isOnline;
