@@ -1,5 +1,5 @@
 void main() {
-  String developerName = "Ansh";
+  String developerName = "Ansh Rastogi";
   String goal = "Professional Flutter App Developer";
   int codingHours = 4;
 
