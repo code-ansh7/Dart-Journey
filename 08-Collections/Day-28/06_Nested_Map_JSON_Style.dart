@@ -3,15 +3,22 @@ void main() {
     "name": "Ansh",
     "age": 19,
     "address": {
-      "city": "Noida", 
+      "city": {
+        "CurrentAddress" : "Nizamganj",
+        "Kasba" : "Tilhar"
+      }, 
       "state": "Uttar Pradesh"
     },
   };
 
-  print("Name   : ${user["name"]}");
-  print("Age    : ${user["age"]}");
-  print("City   : ${(user["address"] as Map)["city"]}");
-  //print("City   : ${user["address"]["city"]}");
-  print("State  : ${(user["address"] as Map)["state"]}");
-  //print("State  : ${user["address"]["state"]}");
+  print("Name    : ${user["name"]}");
+  print("Age     : ${user["age"]}");
+
+  //Nesting for 3-Order List
+  print("Mohalla : ${((user["address"] as Map)["city"] as Map)["CurrentAddress"]}");
+  // print("City : ${user["address"]["city"]["Kasba"]}");
+
+  //Nesting for 2-Order List
+  print("State   : ${(user["address"] as Map)["state"]}");
+  //print("State : ${user["address"]["state"]}");
 }
